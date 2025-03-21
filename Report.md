@@ -10,7 +10,7 @@ This exercise aimed to explore different prompt variations for summarizing produ
 
 Prompt Variations and Results
 
-**1. Standard Summarization with Word Limit**
+# **1. Standard Summarization with Word Limit**
 
 Prompt: Summarize the review in at most 25 words.
 
@@ -26,7 +26,7 @@ Weaknesses:
 
 Some summaries lacked minor but potentially relevant details.
 
-**2. Extracting Emotional Sentiment**
+# **2. Extracting Emotional Sentiment**
 
 Prompt: Identify the emotional sentiment (Positive/Neutral/Negative) and provide a brief explanation.
 
@@ -44,7 +44,7 @@ Occasionally ignored negative sentiments embedded within positive statements.
 
 Some explanations were too generic.
 
-**3. Bias-Free Summarization**
+# **3. Bias-Free Summarization**
 
 Prompt: Summarize the review without subjective language (e.g., "cute," "amazing") unless explicitly present.
 
@@ -62,7 +62,7 @@ Occasionally removed important descriptive details.
 
 Some summaries felt too mechanical and lacked readability.
 
-**Key Learnings**
+# **Key Learnings**
 
 Prompt specificity significantly impacts output. Minor tweaks in phrasing can lead to substantial differences in summarization quality.
 
@@ -72,7 +72,7 @@ Balancing factual accuracy and readability is challenging. A completely neutral 
 
 Using "extract" instead of "summarize" can improve precision. This is particularly useful for targeted information retrieval.
 
-**Conclusion**
+# **Conclusion**
 
 Overall, this experiment demonstrated that prompt engineering plays a crucial role in guiding the behavior of AI models. Different approaches can yield varying degrees of accuracy and relevance, and refining prompts based on the desired outcome is key to achieving high-quality responses.
 
